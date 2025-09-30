@@ -28,46 +28,31 @@ The dataset contains detailed audio attributes for tracks available on Spotify, 
 ## Dashboard Preview
 Music Feature Insights by Genre  
 
----
-
-## Insights Visualised
-
-### 1. Mood Grouping of Genres
-A calculated field combines Energy, Danceability, and Valence into a single “Mood Group” score, representing the overall levity of a track.  
-- Genres such as Reggaeton, Reggae, and Ska scored the highest.  
-- Soundtrack, Opera, and Classical scored lowest by a large margin.  
-
-<img src="IMAGE-LINK-1" alt="Mood Grouping of Genres" width="800"/>
+<img src="IMAGE-LINK" alt="Music Genre Analysis Dashboard" width="800"/>
 
 ---
 
-### 2. Liveness vs Loudness
-Scatter plot comparing track Liveness and Loudness.  
-- Most tracks cluster between –12 dB and –6 dB loudness, and liveness between 0.15 and 0.25.  
-- Suggests loudness does not strongly correlate with liveness.  
-
-<img src="IMAGE-LINK-2" alt="Liveness vs Loudness" width="800"/>
-
----
-
-### 3. Average Valence by Genre
-Comparison of valence scores across genres, highlighting emotional tone.  
-- Genres like Reggae, Children’s Music, and Ska exhibit higher positivity.  
-- Opera, Classical, and Soundtrack sit at the lower end of the spectrum.  
-
-<img src="IMAGE-LINK-3" alt="Average Valence by Genre" width="800"/>
-
----
-
-### 4. Track Duration vs Popularity
-Duration was standardised into minutes (`duration_ms / 60`) for easier interpretation.  
-- Pop and Dance genres show higher popularity regardless of track length.  
-- Electronic and Jazz sustain popularity with longer average durations.  
-
-<img src="IMAGE-LINK-4" alt="Track Duration vs Popularity" width="800"/>
+## Insights Highlighted
+- A calculated “Mood Group” field (combining energy, danceability, and valence) identifies genres such as Reggaeton, Reggae, and Ska as having the highest mood scores, while Soundtrack, Opera, and Classical rank lowest.  
+- Liveness and loudness show limited correlation, with most tracks clustering between –12 dB and –6 dB loudness.  
+- Valence analysis reveals clear differences in emotional tone across genres, with Reggae and Ska scoring highest and Classical and Opera lowest.  
+- Track duration converted into minutes shows that genre identity drives popularity more than track length, with Pop and Dance consistently outperforming other categories.  
 
 ---
 
 ## Tools and Skills Demonstrated
 - Tableau Public: Dashboard design and interactivity  
-- Dat
+- Data Preparation: Calculated fields for mood grouping and duration standardisation  
+- Comparative Analysis: Multi-dimensional genre-based comparisons  
+- Feature Interpretation: Understanding Spotify’s audio metrics and applying them to genre-level insights  
+
+---
+
+## Explore the Dashboard
+- [View on Tableau Public](#)  
+- [Download Workbook](#)  
+
+---
+
+## Feedback
+Feedback and suggestions are welcome — feel free to reach out or comment directly on the Tableau Public page.
