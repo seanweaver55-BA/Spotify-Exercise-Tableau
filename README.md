@@ -48,11 +48,5 @@ Music Feature Insights by Genre
 
 ---
 
-## Explore the Dashboard
-- [View on Tableau Public](#)  
-- [Download Workbook](#)  
-
----
-
 ## Feedback
 Feedback and suggestions are welcome — feel free to reach out or comment directly on the Tableau Public page.
