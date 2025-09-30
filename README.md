@@ -28,7 +28,7 @@ The dataset contains detailed audio attributes for tracks available on Spotify, 
 ## Dashboard Preview
 Music Feature Insights by Genre  
 
-<img src="IMAGE-LINK" alt="Music Genre Analysis Dashboard" width="800"/>
+<img src="https://github.com/user-attachments/assets/da139b02-7885-422d-b133-6f1995ae71cb" alt="Music Genre Analysis Dashboard" width="800"/>
 
 ---
 
